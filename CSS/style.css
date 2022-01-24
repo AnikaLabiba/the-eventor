@@ -15,3 +15,22 @@ body{
 ul li{
     list-style: none;
 }
+.price-column{
+    background-color: #aed7e6;
+    border-radius: 10px;
+}
+.top-rated-column{
+    background-color: #5579C6;
+    height: 450px;
+    width:258px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.badge-bg{
+    background-color: #b7b9be;
+}
+.top-rated-btn{
+    background-color: #aed7e6; 
+    border: 0;  
+    color: #5579C6;
+}
