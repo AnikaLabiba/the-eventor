@@ -7,6 +7,7 @@ body{
 }
 
 /* Carousel styles */
+
 .book-now-bttn{
     background-color: #5579C6;
     border: none;
@@ -44,4 +45,11 @@ ul li{
 .reg-part{
    background-color: #d9e5e9; 
    border-radius: 15px;
+}
+/* Media query for responsive carousel */
+@media screen and (max-width:576px) {
+    .carousel-item img{
+        width: 200%;
+        height: 400px;
+    }
 }

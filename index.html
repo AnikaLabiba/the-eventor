@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Eventor</title>
     <!---------------- Stylesheet ----------------->
     <link rel="stylesheet" href="CSS/style.css">
     <!----------------- Bootstrap CSS ----------------->
@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg" style="background-color: #FFFFFF;">
             <div class="container navbar-light d-flex justify-content-around">
                 <a class="navbar-brand" href="#">
-                    <h3 style="color: #5579C6;" class="fw-bold">Eventra</h3>
+                    <h3 style="color: #5579C6;" class="fw-bold">The Eventor</h3>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/bunch-flowers.png" class="d-block w-100 opacity-75" alt="..." width="100%">
-                        <div class="carousel-caption d-none d-md-block text-dark">
+                        <div class="carousel-caption d-md-block text-dark">
                             <h2 class="fs-1">Let's make it Special</h2>
                             <p class="fw-bold fs-4">Life is made of special moments. Turn each into magic with Banquet.
                             </p>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/couple-dancing.png" class=" d-block w-100 opacity-75" alt="...">
-                        <div class="carousel-caption d-none d-md-block text-dark">
+                        <div class="carousel-caption d-md-block text-dark">
                             <h2 class="fs-1">Let's make it Special</h2>
                             <p class="fw-bold fs-4">Life is made of special moments. Turn each into magic with Banquet.
                             </p>
@@ -82,7 +82,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/couple-outside.png" class="d-block w-100 opacity-75" alt="...">
-                        <div class="carousel-caption d-none d-md-block text-dark">
+                        <div class="carousel-caption d-md-block text-dark">
                             <h2 class="fs-1">Let's make it Special</h2>
                             <p class="fw-bold fs-4">Life is made of special moments. Turn each into magic with Banquet.
                             </p>
@@ -110,7 +110,7 @@
         <section class="container my-5 pt-3">
             <h2 class="text-center">Our Packages</h2>
             <div class="row mt-5 gy-md-3 gy-4">
-                <!-- Column-1 -->
+                <!-- Column-1 ----------->
                 <div class="col-lg-3 col-12 col-md-6">
                     <div class="price-column p-5">
                         <h4 class="fw-bold">$300<br>
@@ -128,7 +128,7 @@
                                 plan</button></a>
                     </div>
                 </div>
-                <!-- Column-2 -->
+                <!-- Column-2 -------------->
                 <div class="col-lg-3 col-12 col-md-6">
                     <div class="price-column p-5">
                         <h4 class="fw-bold">$500<br>
@@ -151,7 +151,7 @@
                         </a>
                     </div>
                 </div>
-                <!-- Column-3 -->
+                <!-- Column-3 ------------->
                 <div class="col-lg-3 col-12 col-md-6">
 
                     <div class="top-rated-column text-white p-5 position-relative">
@@ -174,7 +174,7 @@
                                 plan</button></a>
                     </div>
                 </div>
-                <!-- Column-4 -->
+                <!--------- Column-4 ----------------->
                 <div class="col-lg-3 col-12 col-md-6">
                     <div class="price-column p-5">
                         <h4 class="fw-bold">$1200<br>
@@ -349,46 +349,52 @@
                 </select>
                 <br>
                 <div id="liveAlertPlaceholder"></div>
-                <button class="book-now-bttn px-5 py-2 text-white fw-bold rounded-pill" id="liveAlertBtn"
+                <button class="book-now-bttn px-5 py-2 text-white fw-bold rounded-pill" id="liveToastBtn"
                     type="submit">Submit</button>
-
-
-
             </div>
+            <!----------------- toast ----------------->
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <strong class="me-auto" style="color: #5579C6;">The Eventor</strong>
+                        <small>Just now</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        Upto 40% OFF! Do hurry, get registered. keep suppoting us.
+                    </div>
+                </div>
+            </div>
+
         </section>
     </main>
+    <!----------------- Footer ----------------->
     <footer>
         <div class="bg-dark d-flex justify-content-around align-items-center p-5 flex-lg-row flex-column-reverse">
             <p class="text-muted">© 2022 All rights reserved</p>
 
             <div class="d-flex flex-column">
                 <p class="text-muted">Get the App</p>
-                <a class="mb-2" href="https://apps.apple.com/us/app/apple-health/id1242545199"><img
+                <a class="mb-2" href="https://apps.apple.com/us/app/apple-support/id1130498044"><img
                         src="images/App Store Badgeapple.png" alt=""></a>
                 <a href="https://play.google.com/store/apps/details?id=com.instagram.lite"><img
                         src="images/Google Play Badgegoogle.png" alt=""></a>
             </div>
         </div>
     </footer>
-    <!-- Bootstrap JS -->
+    <!-------------- Bootstrap JS --------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <!-- Alert JS -->
+    <!--------------- Toast JS -------------->
     <script>
-        var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
-        var alertTrigger = document.getElementById('liveAlertBtn')
+        var toastTrigger = document.getElementById('liveToastBtn')
+        var toastLiveExample = document.getElementById('liveToast')
+        if (toastTrigger) {
+            toastTrigger.addEventListener('click', function () {
+                var toast = new bootstrap.Toast(toastLiveExample)
 
-        function alert(message, type) {
-            var wrapper = document.createElement('div')
-            wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
-
-            alertPlaceholder.append(wrapper)
-        }
-
-        if (alertTrigger) {
-            alertTrigger.addEventListener('click', function () {
-                alert('Request created successfully. Thanks for supporting us.', 'success')
+                toast.show()
             })
         }
     </script>
