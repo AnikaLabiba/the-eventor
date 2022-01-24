@@ -18,11 +18,13 @@ ul li{
 .price-column{
     background-color: #aed7e6;
     border-radius: 10px;
+    height: 400px;
+    width:100%;
 }
 .top-rated-column{
     background-color: #5579C6;
     height: 450px;
-    width:258px;
+    width:100%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
