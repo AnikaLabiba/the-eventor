@@ -40,3 +40,12 @@ ul li{
 .dark-blue-text{
     color: #5579C6;
 }
+/* Ragistration styles */
+.reg-part{
+   background-color: #d9e5e9; 
+   border-radius: 15px;
+}
+/* Footer styles */
+.footer-text{
+    text-decoration: none;
+}
