@@ -1,0 +1,17 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Libre+Baskerville&family=Luxurious+Roman&family=Merriweather:wght@700&family=Open+Sans:wght@400;500;700&family=Outfit:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto+Condensed&display=swap');
+
+/* Common styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Carousel styles */
+.book-now-bttn{
+    background-color: #5579C6;
+    border: none;
+}
+/* Pricing styles */
+ul li{
+    list-style: none;
+}
